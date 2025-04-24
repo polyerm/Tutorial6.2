@@ -1,10 +1,6 @@
-public class Cat extends Animal {
+public class Cat extends Feline {
     @Override
     public void makeNoise() {
         System.out.println("Meow");
-    }
-    @Override
-    public void roam() {
-        System.out.println("Cat roams across the room");
     }
 }
